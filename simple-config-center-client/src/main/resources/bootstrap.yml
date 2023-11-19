@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    client:
+      config:
+        server-addr: localhost:8888 #配置中心的地址
+        file-id: bbf47d9f-b978-46e4-9461-b04c6b739d62 #配置文件的id

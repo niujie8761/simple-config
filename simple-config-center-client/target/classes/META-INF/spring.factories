@@ -1,0 +1,4 @@
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+  simple.configclient.spring.ConfigCenterBootstrapConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  simple.configclient.spring.ConfigCenterAutoConfiguration
