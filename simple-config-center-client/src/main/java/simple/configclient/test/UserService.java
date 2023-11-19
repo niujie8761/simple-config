@@ -2,7 +2,6 @@ package simple.configclient.test;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,7 +15,7 @@ import org.springframework.stereotype.Service;
 @RefreshScope
 public class UserService {
 
-    @Value("${sanyou1.username}")
+    @Value("${sanyou.username}")
     private String username;
 
     public String getUsername() {
